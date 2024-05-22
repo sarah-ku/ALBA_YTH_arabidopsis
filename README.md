@@ -1,1 +1,11 @@
-# ALBA_YTH_arabidopsis
+# Code for Reichel et al: ALBA proteins facilitate cytoplasmic YTHDF-mediated reading of m6A in plants
+
+## Scripts for ALBA and ECT2 binding analysis using iCLIP and HyperTRIBE
+
+## Scripts for motif analysis
+
+## Scripts for deep learning modelling and subsequent analysis
+
+## Scripts for HyperTRIBE interaction analysis
+
+Data objects required for running the code and reproducing our results will be uploaded to Zenodo: 10.5281/zenodo.11241987
