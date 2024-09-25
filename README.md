@@ -12,6 +12,10 @@ Description of code for individual analyses:
 
 ### Scripts for deep learning modelling and subsequent analysis
 
+1. ALBA_ECT2_neural_network_training_data.R
+
+This script takes as input the atlas of ~48K m6A sites in Arabidosis, annotates them according to presence or absence of ALBA4 (iCLIP, Reichel et al. 2024) and ECT2 (iCLIP, Arribas-Hernandaz et al. 2021) and outputs files necessary for training the dual-output deep learning model. Features are 601 nt sequences (saved in .fasta format) and all sites on the same gene are kept to the same fold to prevent possible leakage of features between different folds.
+
 ### Scripts for HyperTRIBE interaction analysis
 
 1. HyperTRIBE_interaction_statistical_modelling.R
