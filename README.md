@@ -4,6 +4,8 @@ Data objects required for running the code and reproducing our results are uploa
 
 Supplementary processed data together with figure source data is available at Reichel et al. 2024.
 
+You can load general objects into R (GRanges for iCLIP sets, m6A sites, HyperTRIBE results and motifs + other processed data downloaded from Zenodo) using the script: ALBA_project_load_objects.R
+
 ---
 
 Description of code for individual analyses:
