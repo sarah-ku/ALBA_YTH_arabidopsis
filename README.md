@@ -1,6 +1,8 @@
 # Code for Reichel et al: ALBA proteins facilitate cytoplasmic YTHDF-mediated reading of m6A in plants
 
-Data objects required for running the code and reproducing our results will be uploaded to Zenodo: 10.5281/zenodo.11241987
+Data objects required for running the code and reproducing our results are uploaded to Zenodo: 10.5281/zenodo.11241987
+
+Supplementary processed data together with figure source data is available at Reichel et al. 2024.
 
 ---
 
@@ -15,6 +17,18 @@ Description of code for individual analyses:
 1. ALBA_ECT2_neural_network_training_data.R
 
 This script takes as input the atlas of ~48K m6A sites in Arabidosis, annotates them according to presence or absence of ALBA4 (iCLIP, Reichel et al. 2024) and ECT2 (iCLIP, Arribas-Hernandaz et al. 2021) and outputs files necessary for training the dual-output deep learning model. Features are 601 nt sequences (saved in .fasta format) and all sites on the same gene are kept to the same fold to prevent possible leakage of features between different folds.
+
+2. m6a_model_5fcv.py
+
+Script for processing the m6A input data, training the m6A neural network and making held out predictions in the vicinity of miCLIP m6A sites. Processed sites are available as supplementary in Reichel et al. 2024.
+
+3. iclip_model_5fcv.py
+
+Script for training the multi-output neural network for predicting RNA-protein binding of ECT2 and ALBA4 in the vicinity of m6A sites.
+
+4. iclip_model_motif_analysis.R
+
+Script which 
 
 ### Scripts for HyperTRIBE interaction analysis
 
