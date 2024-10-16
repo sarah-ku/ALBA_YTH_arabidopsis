@@ -1,6 +1,6 @@
 # Code for Reichel et al: ALBA proteins facilitate cytoplasmic YTHDF-mediated reading of m6A in plants
 
-Data objects required for running the code and reproducing our results are uploaded to Zenodo: 10.5281/zenodo.11241987
+Data objects required for running the code and reproducing our results are uploaded to Zenodo: 10.5281/zenodo.11241987 (https://zenodo.org/records/11241987)
 
 Supplementary processed data together with figure source data is available at Reichel et al. 2024.
 
